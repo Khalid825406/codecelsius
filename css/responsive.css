@@ -1,0 +1,149 @@
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 100%;
+    }
+
+    .tittle-head {
+        font-size: 2rem !important;
+    }
+
+    .head {
+        font-size: 2rem;
+    }
+
+    #typed-text {
+        font-size: 2rem;
+    }
+
+    .containerere {
+        padding-top: 48px;
+    }
+
+    .hero-para {
+        margin: 20px 0;
+        font-size: 12px;
+        color: #555;
+        line-height: 20px;
+    }
+
+    .buttons {
+        display: flex;
+    }
+
+    .image-container {
+        background: #00695c;
+        width: 280px;
+        height: 319px;
+        /* overflow: hidden; */
+        background-size: cover;
+        position: relative;
+        border-radius: 140px 140px 0px 0px;
+        margin-left: 59px;
+    }
+
+    .border {
+        border-radius: 140px 140px 0px 0px;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        border-bottom: none;
+        position: absolute;
+        width: 280px;
+        height: 319px;
+        right: -2px;
+        bottom: 0;
+    }
+
+    .my-new2 {
+        display: none;
+    }
+
+    .image-section {
+        width: 25%;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .row {
+        display: block;
+        justify-content: space-between;
+        padding-bottom: 1px;
+    }
+
+    .hero-section {
+        min-height: 100vh;
+        background: #ecfdf5;
+        position: relative;
+        padding: 0px 20px;
+    }
+
+    .my-new1 {
+        display: none;
+    }
+
+    .my-new1 {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #00695c;
+        /* left: -55px; */
+        bottom: -31px;
+    }
+
+    .card {
+        position: relative;
+        width: 350px;
+        height: 400px;
+        background: #059367;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        right: -21px;
+        background: #059367;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        box-shadow: 3px 3px 8px #ccc;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .prev-btn {
+        left: 8px;
+    }
+
+    .next-btn {
+        right: 8px;
+    }
+    .logo img {
+        width: 88px;
+    }
+    .padd {
+        padding: 0px 0px !important;
+    }
+
+    .marrr {
+        margin: 0px 0px !important;
+    }
+    .whatsapp-btn i {
+        font-size: 20px;
+        padding-left: 16px;
+    }
+    .whatsapp-btn h5 a {
+        color: #00695c;
+        font-size: 13px;
+    }
+    .second-footer{
+        margin-top: 20px;
+    }
+    .dropdown-link i{
+        display: none;
+    }
+}
