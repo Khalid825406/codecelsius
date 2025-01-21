@@ -50,7 +50,7 @@
         position: absolute;
         width: 280px;
         height: 319px;
-        right: -2px;
+        right: 36px;
         bottom: 0;
     }
 
@@ -71,7 +71,7 @@
     }
 
     .hero-section {
-        min-height: 100vh;
+        min-height: 90vh;
         background: #ecfdf5;
         position: relative;
         padding: 0px 20px;
@@ -94,8 +94,8 @@
 
     .card {
         position: relative;
-        width: 350px;
-        height: 400px;
+        width: 384px;
+        height: 421px;
         background: #059367;
         display: flex;
         justify-content: center;
