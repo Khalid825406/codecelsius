@@ -175,26 +175,5 @@
         object-fit: cover;
         object-position: bottom;
     }
-    .left-section{
-        width: 100%;
-    }
-    .right-side {
-        width: 100%;
-        margin-top: 20px;
-    }
-    .flex {
-        display: block;
-    }
-    .px-20 {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .space-x-4 > :not([hidden]) ~ :not([hidden]) {
-        --tw-space-x-reverse: 0;
-        margin-right: calc(1rem* var(--tw-space-x-reverse));
-        margin-left: calc(1rem* calc(0 - var(--tw-space-x-reverse)));
-    }
-    .mt-4 {
-        margin-top: 0rem;
-    }
+    
 }
