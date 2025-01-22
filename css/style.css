@@ -225,8 +225,8 @@ nav {
     }
     .whatfixed123 {
         position: fixed;
-        left: 15px !important;
-        bottom: 30px;
+        left: 9px !important;
+        bottom: 20px !important;
         z-index: 999;
     }
     .dropdown-content {

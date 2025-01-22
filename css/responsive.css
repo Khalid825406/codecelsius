@@ -175,5 +175,19 @@
         object-fit: cover;
         object-position: bottom;
     }
+    .whatsapp-btn12 {
+        background-color: #1bd741;
+        color: white;
+        padding: 8px 8px;
+        text-decoration: none;
+        margin-top: 20px;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        border-radius: 50%;
+    }
+    .whatsapp-btn12 .icon-what {
+        font-size: 28px;
+    }
     
 }
