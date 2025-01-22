@@ -134,7 +134,7 @@ nav {
     background: #fff;
     border-radius: 0px;
     padding: 0;
-    min-width: 300px;
+    min-width: 290px;
     overflow: hidden;
     height: 0;
     transition: height 0.3s ease, padding 0.3s ease;
@@ -195,16 +195,27 @@ nav {
 @media (max-width: 768px) {
     .nav-links {
         flex-direction: column;
-        background-color: #d9d9d9;
+        background-color: #ffffff;
         position: absolute;
         top: 80px;
         left: -100%;
-        width: 100%;
+        width: 80%;
         padding: 20px 20px;
         height: 100vh;
         transition: all 0.3s;
         visibility: hidden;
         opacity: 0;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgb(0 0 0 / 35%);
+        width: 389px;
+        height: 100vh;
+        z-index: -1;
+        transition: all 0.5s;
     }
 
     .arrow {

@@ -15,7 +15,12 @@ navLinks.forEach((link) => {
 // Hamburger Menu for Mobile View
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-links');
+const overlay = document.querySelector('.overlay');
 
+
+overlay.addEventListener("click",()=>{
+  navMenu.classList.remove('active');
+})
 // Toggle responsive menu
 hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
